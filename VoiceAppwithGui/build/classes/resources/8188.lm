@@ -1,0 +1,85 @@
+Language model created by QuickLM on Fri May  2 09:00:52 EDT 2025
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 12 sentences and 14 words
+
+\data\
+ngram 1=14
+ngram 2=24
+ngram 3=24
+
+\1-grams:
+-0.9031 </s> -0.3010
+-0.9031 <s> -0.2430
+-1.9823 ALL -0.2430
+-1.6812 CHROME -0.2430
+-1.2833 CLOSE -0.2583
+-1.6812 ECLIPSE -0.2430
+-1.9823 HELLO -0.2965
+-1.9823 INCAPP -0.2430
+-1.6812 NETBEANS -0.2430
+-1.6812 NOTEPAD -0.2430
+-1.3802 OPEN -0.2632
+-1.9823 RESTART -0.2430
+-1.9823 SHUTDOWN -0.2430
+-1.6812 SYSTEM -0.2919
+
+\2-grams:
+-0.6812 <s> CLOSE 0.0000
+-1.3802 <s> HELLO 0.0000
+-0.7782 <s> OPEN 0.0000
+-1.0792 <s> SYSTEM 0.0000
+-0.3010 ALL </s> -0.3010
+-0.3010 CHROME </s> -0.3010
+-1.0000 CLOSE ALL 0.0000
+-1.0000 CLOSE CHROME 0.0000
+-1.0000 CLOSE ECLIPSE 0.0000
+-1.0000 CLOSE NETBEANS 0.0000
+-1.0000 CLOSE NOTEPAD 0.0000
+-0.3010 ECLIPSE </s> -0.3010
+-0.3010 HELLO INCAPP 0.0000
+-0.3010 INCAPP </s> -0.3010
+-0.3010 NETBEANS </s> -0.3010
+-0.3010 NOTEPAD </s> -0.3010
+-0.9031 OPEN CHROME 0.0000
+-0.9031 OPEN ECLIPSE 0.0000
+-0.9031 OPEN NETBEANS 0.0000
+-0.9031 OPEN NOTEPAD 0.0000
+-0.3010 RESTART </s> -0.3010
+-0.3010 SHUTDOWN </s> -0.3010
+-0.6021 SYSTEM RESTART 0.0000
+-0.6021 SYSTEM SHUTDOWN 0.0000
+
+\3-grams:
+-1.0000 <s> CLOSE ALL
+-1.0000 <s> CLOSE CHROME
+-1.0000 <s> CLOSE ECLIPSE
+-1.0000 <s> CLOSE NETBEANS
+-1.0000 <s> CLOSE NOTEPAD
+-0.3010 <s> HELLO INCAPP
+-0.9031 <s> OPEN CHROME
+-0.9031 <s> OPEN ECLIPSE
+-0.9031 <s> OPEN NETBEANS
+-0.9031 <s> OPEN NOTEPAD
+-0.6021 <s> SYSTEM RESTART
+-0.6021 <s> SYSTEM SHUTDOWN
+-0.3010 CLOSE ALL </s>
+-0.3010 CLOSE CHROME </s>
+-0.3010 CLOSE ECLIPSE </s>
+-0.3010 CLOSE NETBEANS </s>
+-0.3010 CLOSE NOTEPAD </s>
+-0.3010 HELLO INCAPP </s>
+-0.3010 OPEN CHROME </s>
+-0.3010 OPEN ECLIPSE </s>
+-0.3010 OPEN NETBEANS </s>
+-0.3010 OPEN NOTEPAD </s>
+-0.3010 SYSTEM RESTART </s>
+-0.3010 SYSTEM SHUTDOWN </s>
+
+\end\

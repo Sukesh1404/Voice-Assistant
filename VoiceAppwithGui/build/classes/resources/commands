@@ -1,0 +1,12 @@
+open chrome
+close chrome
+open notepad
+close notepad
+open eclipse
+close eclipse
+open netbeans 
+close netbeans
+System Shutdown
+System Restart
+close all
+hello incapp
